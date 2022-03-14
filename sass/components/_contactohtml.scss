@@ -1,0 +1,60 @@
+/*   ESTILOS DE CONTACTO HTML    */
+
+body {
+  main {
+    form {
+      background-color: black;
+      color: white;
+      h2 {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      fieldset {
+        font-size: 25px;
+        .botones {
+          padding-top: 50px;
+          padding-bottom: 50px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+      }
+
+      .wrapper-formulario{
+        margin: 100px;
+      }
+    }
+    section {
+      .contactanos {
+        padding-top: 50px;
+        font-size: 30px;
+      }
+      .logoIg {
+        width: 60px;
+      }
+      .linkIg {
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+      }
+      .iconWp {
+        width: 50px;
+      }
+      .whatsapp {
+        font-size: 25px;
+      }
+      .iconEmail {
+        width: 50px;
+      }
+      .correo {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+/*   FIN DE ESTILOS DE CONTACTO HTML    */
+

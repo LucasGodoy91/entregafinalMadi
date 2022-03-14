@@ -1,0 +1,412 @@
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+/*   ESTILOS GENERALES DEL HEADER    */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+
+header .logo {
+  width: 50%;
+  -webkit-animation-name: escalar;
+          animation-name: escalar;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: scale();
+          transform: scale();
+}
+
+@-webkit-keyframes escalar {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes escalar {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 40px;
+}
+
+nav ul li .subMenu {
+  text-align: left;
+  color: black;
+  display: none;
+  font-size: 20px;
+}
+
+li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/*   FIN DE ESTILOS GENERALES DEL HEADER    */
+/*  ESTILOES GENERALES DEL MAIN    */
+.container div .intro {
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.container div section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container div section h2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 45px;
+  padding-top: 150px;
+}
+
+.container div section .shipping {
+  width: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container div section .envio {
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+/*   FIN DE ESTILOS GENERALES DEL MAIN   */
+/*    ESTILOS GENERALES DEL FOOTER     */
+footer {
+  padding-top: 70px;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logoIg {
+  width: 50px;
+}
+
+footer .containerFooter {
+  text-align: center;
+}
+
+footer .containerFooter .linkIg {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+/*   FIN DE ESTILOS GENERALES DEL FOOTER     */
+/*      ESTILOS DE NOSOTROS HTML      */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .parrafoNosotros {
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.container section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section .shipping {
+  width: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container section .envio {
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+/*     FIN DE ESTILOS DE NOSOTROS HTML   */
+/*     ESTILOS DE UBICACION HTML       */
+body main .direccion {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* FIN DE ESTILOS DE UBICACION HTML     */
+/*   ESTILOS DE CONTACTO HTML    */
+body main form {
+  background-color: black;
+  color: white;
+}
+
+body main form h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body main form fieldset {
+  font-size: 25px;
+}
+
+body main form fieldset .botones {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main section .contactanos {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+body main section .logoIg {
+  width: 50px;
+}
+
+body main section .linkIg {
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+body main section .iconWp {
+  width: 50px;
+}
+
+body main section .whatsapp {
+  font-size: 25px;
+}
+
+body main section .iconEmail {
+  width: 50px;
+}
+
+body main section .correo {
+  font-size: 25px;
+}
+
+/*  ESTILOS DE PRODUCTOS HTML     */
+.container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header" "nav nav" "main main" "footer footer";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+.container header h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container header .logo {
+  width: 50%;
+  -webkit-animation-name: escalar;
+          animation-name: escalar;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: scale();
+          transform: scale();
+}
+
+@keyframes escalar {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+
+.container nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: nav;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .section .shippin {
+  width: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container .main .section .envio {
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+.container footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+
+/*  operaciones en scss   */
+header h1 {
+  font-size: 20px;
+}
+
+/*     mapas    */
+main {
+  background-color: white;
+}
+
+footer {
+  background-color: black;
+}
+
+/*    extends     */
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section {
+  background-color: white;
+}
+/*# sourceMappingURL=estilos.css.map */
