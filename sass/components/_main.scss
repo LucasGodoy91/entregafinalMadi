@@ -19,16 +19,36 @@
     padding-top: 30px;
     padding-bottom: 80px;
   } .productos-destacados {
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-     padding-top: 150px;
-  } .indumentaria {
-    border: solid;
-    color: black;
-    font-size: 20px;
-    margin: 20px;
-  }
+     padding-top: 150px; 
+     .div-prod { 
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       border-style: ridge;
+       margin-bottom: 70px;
+        padding-top: 50px;       
+
+      .productos {
+        width: 30%;
+        
+      } .indumentaria {
+       font-size: 20px;
+       margin-top: 20px;
+       
+     } .precio {
+      font-size: 19px;
+      color: red;
+    } .buttonAgregar {
+       font-size: 18px;
+       background-color: red;
+       margin-bottom: 20px;
+       color: white; 
+     }
+
+    }
+     
+  } 
 }
   
   

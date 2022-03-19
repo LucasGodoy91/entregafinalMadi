@@ -54,39 +54,28 @@
       font-size: 20px;
       display: flex;
       flex-direction: column;
+      .divContenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: ridge;
+        margin-bottom: 30px;
+        .foto {
+          width: 30%;
+          padding-top: 40px;
+        }  .precio {
+          font-size: 19px;
+          color: red;
+        } .buttonAgregar {
+           font-size: 18px;
+           background-color: red;
+           margin-bottom: 20px;
+           color: white; 
+        }
+      }
       
-      .foto-uno {
-        width: 50%;
-        padding-top: 40px;
-        
-
-      }
-      .foto-dos {
-        width: 50%;
-        padding-top: 40px; 
-        
-      }
-      .foto-tres {
-        width: 50%;
-        padding-top: 40px; 
-        
-
-      }
-      .foto-cuatro {
-        width: 50%;
-        padding-top: 40px;
-        
-      }
-       .foto-cinco {
-        width: 50%;
-        padding-top: 40px;
-        
-      }
-      .foto-seis {
-        width: 50%;
-        padding-top: 40px; 
-        
-      }
+      
+      
     }
     .section {
       display: flex;

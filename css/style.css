@@ -66,16 +66,28 @@ li:hover {
   padding-bottom: 80px; }
 
 .container .productos-destacados {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   padding-top: 150px; }
-
-.container .indumentaria {
-  border: solid;
-  color: black;
-  font-size: 20px;
-  margin: 20px; }
+  .container .productos-destacados .div-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 70px;
+    padding-top: 50px; }
+    .container .productos-destacados .div-prod .productos {
+      width: 30%; }
+    .container .productos-destacados .div-prod .indumentaria {
+      font-size: 20px;
+      margin-top: 20px; }
+    .container .productos-destacados .div-prod .precio {
+      font-size: 19px;
+      color: red; }
+    .container .productos-destacados .div-prod .buttonAgregar {
+      font-size: 18px;
+      background-color: red;
+      margin-bottom: 20px;
+      color: white; }
 
 /*   FIN DE ESTILOS GENERALES DEL MAIN   */
 @media screen and (max-width: 600px) {
@@ -224,24 +236,23 @@ body main section .correo {
       font-size: 20px;
       display: flex;
       flex-direction: column; }
-      .container main .nuestros-productos .foto-uno {
-        width: 50%;
-        padding-top: 40px; }
-      .container main .nuestros-productos .foto-dos {
-        width: 50%;
-        padding-top: 40px; }
-      .container main .nuestros-productos .foto-tres {
-        width: 50%;
-        padding-top: 40px; }
-      .container main .nuestros-productos .foto-cuatro {
-        width: 50%;
-        padding-top: 40px; }
-      .container main .nuestros-productos .foto-cinco {
-        width: 50%;
-        padding-top: 40px; }
-      .container main .nuestros-productos .foto-seis {
-        width: 50%;
-        padding-top: 40px; }
+      .container main .nuestros-productos .divContenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: ridge;
+        margin-bottom: 30px; }
+        .container main .nuestros-productos .divContenedor .foto {
+          width: 30%;
+          padding-top: 40px; }
+        .container main .nuestros-productos .divContenedor .precio {
+          font-size: 19px;
+          color: red; }
+        .container main .nuestros-productos .divContenedor .buttonAgregar {
+          font-size: 18px;
+          background-color: red;
+          margin-bottom: 20px;
+          color: white; }
     .container main .section {
       display: flex;
       flex-direction: column;
