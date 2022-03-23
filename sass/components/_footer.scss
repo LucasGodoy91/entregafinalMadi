@@ -1,6 +1,6 @@
 /*    ESTILOS GENERALES DEL FOOTER     */
 
-footer {
+footer { 
     font-size: 15px;
   padding-top: 70px;
   background-color: black;
@@ -8,11 +8,26 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  h3 {
+    font-size: 20px;
+  } .line {
+    border-top-style: ridge;
+    width: 50%;
+    height: 1px;
+    padding-bottom: 20px;
+  }
+  
   .logos {
     width: 30px;
+  } .email {
+    padding-bottom: 20px;
+  }
+   h4 {
+    font-size: 20px;
   }
   .containerFooter {
     text-align: center;
+    
     .linkIg {
       text-decoration: none;
       text-align: center;
